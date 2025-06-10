@@ -1,0 +1,11 @@
+# Ignore all files in qdrant_storage/
+qdrant_storage/*
+postgres_data/*
+open-webui-data/*
+n8n_data/*
+
+# But do not ignore .gitkeep
+!qdrant_storage/.gitkeep
+!postgres_data/.gitkeep
+!postgres_data/.gitkeep
+!n8n_data/.gitkeep
